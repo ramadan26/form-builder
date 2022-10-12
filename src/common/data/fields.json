@@ -1,0 +1,97 @@
+{
+  "formURL": "sadsadasdasdsa",
+  "fields": [
+    {
+      "id": 1,
+      "component": "BaseInput",
+      "inputClass": "form-control",
+      "labelClass": "form-label",
+      "inputID": "",
+      "labelID": "",
+      "required": true,
+      "label": "Title",
+      "type": "text",
+      "options": [],
+      "value": "",
+      "name": "phoneBla",
+      "placeholder": "",
+      "errorMsg": "This field is required"
+    },
+    {
+      "id": 2,
+      "component": "BaseInput",
+      "inputClass": "form-control",
+      "labelClass": "form-label",
+      "inputID": "",
+      "labelID": "",
+      "required": true,
+      "label": "Description",
+      "type": "text",
+      "options": [],
+      "value": "",
+      "name": "inputBla",
+      "placeholder": "",
+      "errorMsg": "This field is required"
+    },
+    {
+      "id": 3,
+      "component": "BaseSelect",
+      "inputClass": "form-select",
+      "labelClass": "form-label",
+      "inputID": "",
+      "labelID": "",
+      "required": true,
+      "label": "Category",
+      "type": "",
+      "options": [
+        "sustainability",
+        "nature",
+        "animal welfare",
+        "housing",
+        "education",
+        "food",
+        "community"
+      ],
+      "value": "",
+      "name": "selectBla",
+      "placeholder": "",
+      "errorMsg": "This field is required"
+    },
+    {
+      "id": 4,
+      "component": "BaseRadioGroup",
+      "inputClass": "form-check-input",
+      "labelClass": "form-check-label",
+      "required": true,
+      "inputID": "",
+      "labelID": "",
+      "options": [
+        {
+          "label": "Yes",
+          "value": 1
+        },
+        {
+          "label": "No",
+          "value": 0
+        }
+      ],
+      "name": "pets",
+      "vertical": true,
+      "errorMsg": "This field is required"
+    },
+    {
+      "id": 5,
+      "component": "BaseCheckbox",
+      "inputClass": "form-check-input",
+      "labelClass": "form-check-label",
+      "required": true,
+      "label": "on hold",
+      "inputID": "flexCheckIndeterminate",
+      "labelID": "flexCheckIndeterminate",
+      "options": [],
+      "name": "on-hold",
+      "vertical": false,
+      "errorMsg": "This field is required"
+    }
+  ]
+}
